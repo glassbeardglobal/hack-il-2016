@@ -1,0 +1,97 @@
+html, body {
+  background-color: white;
+}
+
+a:hover, a:visited, a:active, a:focus{
+  text-decoration: none;
+}
+
+/*Menu Bar*/
+.menu-wrapper {
+  background-color: #34495e;
+  height: 80px;
+  overflow: scroll;
+}
+.title {
+  color: #95a5a6;
+  margin: 20px 15px 0px 30px;
+  float: left;
+  display: inline-block;
+  transition: color 0.5s;
+}
+
+.title:hover {
+  color: white;
+}
+
+.searchbar {
+  width: 500px;
+  padding: 6px 16px;
+  float: left;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 17px;
+  border-radius: 5px;
+}
+
+.textinput {
+  width: 17em;
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: #34495e;
+  float:right;
+  border: 0;
+  outline: none;
+}
+
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border:0 !important;
+}
+
+.navbar {
+  float: right;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 20px 20px 10px;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #95a5a6;
+  padding: 6px 16px;
+  text-align: center;
+  transition: color 0.5s;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a {
+  border-right: solid;
+  border-width: thin;
+  border-color: #95a5a6;
+}
+
+.navbar a:last-child {
+  border-right: none;
+}
+
+
+/*Groups Bar*/
+
+.groups-bar {
+  width: 200px;
+  float: left;
+}
+
+.groups-bar .container-fluid {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
