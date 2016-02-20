@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="assets/stylesheets/stylesheet.css"/>
     <link rel="stylesheet" href="assets/stylesheets/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400" rel="stylesheet" type="text/css">
@@ -22,13 +22,15 @@
 
     <div class="container" id="right">
       <div class="searchbar">
-        <div class="input-group">
-          <input type="text" class="form-control"/>
-            <span class="input-group-addon">
-              <i class="fa fa-search"></i>
-            </span>
-        </div>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <!-- <input id="searchTxt" class="form-control"placeholder="Search"> -->
+            <input class="form-control" placeholder="Search" id="searchValue">
+          </div>
+          <button type="submit" class="btn btn-default" id="searchButton">Search</button>
+        </form>
       </div>
+
       <div class="nav">
           <a href="#">Categories</a>
           <a href="#">Watched</a>
@@ -39,14 +41,24 @@
     <div class="container" id="main">
       <h1>Recently Watched</h1>
       <ul>
-        <li><img src="https://s-media-cache-ak0.pinimg.com/564x/6f/35/8a/6f358aee9722d73bc19244dd1d5c9093.jpg" alt="Movie 1"/></li>
-        <li><img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2014/10/big_hero_6_poster_malaysia.jpg" alt="Movie 2"/></li>
-        <li><img src="http://static.fastcommerce.com/content/ff808081163c05b001169d6655243ae9/almostfamous.jpg" alt="Movie 3"/></li>
-        <li><img src="http://www.famousmovienews.com/sites/famousmovienews.com/files/imagecache/600_wide/wysiwyg_imageupload/1/hunger-mocking-jay-psoter.jpg" alt="Movie 4"/></li>
-        <li><img src="https://www.movieposter.com/posters/archive/main/16/A70-8168" alt="Movie 5"/></li>
+        <li><img class="movie" src="https://s-media-cache-ak0.pinimg.com/564x/6f/35/8a/6f358aee9722d73bc19244dd1d5c9093.jpg" alt="Movie 1"/></li>
+        <li><img class="movie" src="http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2014/10/big_hero_6_poster_malaysia.jpg" alt="Movie 2"/></li>
+        <li><img class="movie" src="http://static.fastcommerce.com/content/ff808081163c05b001169d6655243ae9/almostfamous.jpg" alt="Movie 3"/></li>
+        <li><img class="movie" src="http://www.famousmovienews.com/sites/famousmovienews.com/files/imagecache/600_wide/wysiwyg_imageupload/1/hunger-mocking-jay-psoter.jpg" alt="Movie 4"/></li>
+        <li><img class="movie" src="https://www.movieposter.com/posters/archive/main/16/A70-8168" alt="Movie 5"/></li>
+        <li><img class="movie" src="https://s-media-cache-ak0.pinimg.com/564x/6f/35/8a/6f358aee9722d73bc19244dd1d5c9093.jpg" alt="Movie 1"/></li>
+        <li><img class="movie" src="http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2014/10/big_hero_6_poster_malaysia.jpg" alt="Movie 2"/></li>
+        <li><img class="movie" src="http://static.fastcommerce.com/content/ff808081163c05b001169d6655243ae9/almostfamous.jpg" alt="Movie 3"/></li>
+        <li><img class="movie" src="http://www.famousmovienews.com/sites/famousmovienews.com/files/imagecache/600_wide/wysiwyg_imageupload/1/hunger-mocking-jay-psoter.jpg" alt="Movie 4"/></li>
+        <li><img class="movie" src="https://www.movieposter.com/posters/archive/main/16/A70-8168" alt="Movie 5"/></li>
+        <li><img class="movie" src="https://s-media-cache-ak0.pinimg.com/564x/6f/35/8a/6f358aee9722d73bc19244dd1d5c9093.jpg" alt="Movie 1"/></li>
+        <li><img class="movie" src="http://a.dilcdn.com/bl/wp-content/uploads/sites/2/2014/10/big_hero_6_poster_malaysia.jpg" alt="Movie 2"/></li>
+        <li><img class="movie" src="http://static.fastcommerce.com/content/ff808081163c05b001169d6655243ae9/almostfamous.jpg" alt="Movie 3"/></li>
+        <li><img class="movie" src="http://www.famousmovienews.com/sites/famousmovienews.com/files/imagecache/600_wide/wysiwyg_imageupload/1/hunger-mocking-jay-psoter.jpg" alt="Movie 4"/></li>
+        <li><img class="movie" src="https://www.movieposter.com/posters/archive/main/16/A70-8168" alt="Movie 5"/></li>
+
       </ul>
     </div>
-
 
   </body>
 </html>
