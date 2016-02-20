@@ -1,0 +1,55 @@
+#info{
+  float: left;
+}
+
+#yours{
+  position: absolute;
+  top: 325px;
+  text-align: left;
+}
+
+#favs{
+  float: right;
+}
+
+#fav1{
+  height: 320px;
+  width: 200px;
+  border: 10px;
+  margin: 50px;
+}
+
+#fav2{
+  height: 320px;
+  width: 200px;
+  border: 10px;
+  margin: 50px;
+}
+
+#fav3{
+  height: 320px;
+  width: 200px;
+  border: 10px;
+  margin: 50px;
+}
+
+#friends{
+  position: absolute;
+  top: 400px;
+}
+
+#besties{
+  position: absolute;
+  top: 405px;
+  left: 135px;
+}	
+
+#button{
+	position: absolute;
+	top: 120px;
+	left: 7px;
+	background-color: gray;
+	border: none;
+	color: white;
+	padding: 12px 24px;
+}
