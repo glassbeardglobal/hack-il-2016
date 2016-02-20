@@ -1,0 +1,202 @@
+html, body {
+  background-color: white;
+  font-weight: 200;
+}
+
+a:hover, a:visited, a:active, a:focus{
+  color: gray;
+  text-decoration: none;
+}
+
+#left {
+  background-color: white;
+  display: inline-block;
+  float: left;
+  padding-top: 0px;
+  width: 25vw;
+  height: 100vh;
+  border-right: 1px solid #262626;
+  padding: 0px;
+
+}
+
+#left .icon {
+  background-color: #34495e;
+  padding: 15px 45%;
+  border-bottom: 1px solid #95a5a6;
+}
+
+#left ul {
+  list-style-type: none;
+}
+
+#left ul li {
+  font-weight: 100;
+  font-size: 15px;
+  height: 50px;
+  padding-top: 14px;
+  border-bottom: 1px solid #95a5a6;
+}
+
+#right {
+  overflow: auto;
+  background-color: #34495e;
+  float: right;
+  height: 73px;
+  width: 75vw;
+  border-bottom: 1px solid #95a5a6;
+}
+
+.nav {
+  position: sticky;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 20px 20px;
+}
+
+.nav a {
+  content-align: right;
+  display: inline-block;
+  color: #95a5a6;
+  padding: 6px 16px;
+  text-align: center;
+  transition: color 0.5s;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav a {
+  overflow: hidden;
+  border-right: solid;
+  border-width: thin;
+  border-color: #95a5a6;
+}
+
+.nav a:last-child {
+  border-right: none;
+}
+
+.icon i{
+  transition: color 0.5s;
+}
+.icon i:hover {
+  color: white;
+}
+
+.searchbar {
+  width: 500px;
+  padding: 6px 16px;
+  float: right;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 13px 20px;
+  border-radius: 5px;
+}
+
+.textinput {
+  width: 17em;
+  border: none;
+  outline: none;
+}
+
+.button {
+  background-color: #34495e;
+  float:right;
+  border: 0;
+  outline: none;
+}
+
+input[type="text"], textarea {
+outline: none;
+box-shadow:none !important;
+border:0 !important;
+}
+
+#main {
+  float: right;
+  height: 85vh;
+  background-color: white;
+  width: 75vw;
+}
+
+#main {
+  display: inline;
+  float: right;
+  width: 75vw;
+  font-size: 18px;
+}
+
+#main ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+#main ul li {
+  display: inline;
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: 216px;
+}
+
+
+/*Menu Bar*/
+
+/*
+.menu-wrapper {
+  background-color: #34495e;
+  height: 80px;
+  overflow: scroll;
+}
+.title {
+  color: #95a5a6;
+  margin: 20px 15px 0px 30px;
+  float: left;
+  display: inline-block;
+  transition: color 0.5s;
+}
+
+
+*/
+
+
+/*Groups Bar*/
+
+/*.main-wrapper {
+  padding: 20px;
+}
+
+.groups-bar .container {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#left {
+  display: inline;
+  float: left;
+  width: 25vw;
+  font-size: 15px;
+
+}
+
+#left .jumbotron, #main .jumbotron {
+  padding: 30px;
+}
+
+#left span{
+  font-size: 18px;
+}
+
+#left ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+*/
