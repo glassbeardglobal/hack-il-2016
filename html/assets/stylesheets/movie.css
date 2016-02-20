@@ -1,0 +1,18 @@
+#poster{
+	float: right;
+	margin-right: 600px;
+	margin-top: 50px;
+}
+
+#pic{
+	width: 300px;
+	height: 400px;
+} 
+
+#description{
+	float: right;
+	position: absolute;
+	left: 720px; 
+	top: 150px;
+	font-size: 20;
+}
