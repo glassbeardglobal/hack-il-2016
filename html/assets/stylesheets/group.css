@@ -1,0 +1,98 @@
+#name{
+  float: top;
+}
+
+#sidebar{
+  float: left;
+}
+
+#members{
+  list-style-type: none;
+  margin: 4px;
+  border: 0px;
+}
+
+#suggestions{
+  position: absolute;
+  top: 65px;
+  left: 250px;
+}
+
+#movies{
+  position: absolute;
+  top: 95px;
+  left: 210px;
+  display: inline-block;
+}
+
+#movie1{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie2{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie3{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie4{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie5{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie6{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie7{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie8{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie9{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie10{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie11{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
+
+#movie12{
+  width: 160;
+  height: 200;
+  margin: 40px;
+}
