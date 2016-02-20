@@ -1,5 +1,6 @@
 #info{
   float: left;
+  width: 200px;
 }
 
 #yours{
@@ -33,16 +34,37 @@
   margin: 50px;
 }
 
+#fav4{
+  height: 320px;
+  width: 200px;
+  border: 10px;
+  margin: 50px;
+}
+#aboutme{
+  position: absolute;
+  top: 425px;
+  left: 250px;
+  right: 25px;
+}
+
 #friends{
   position: absolute;
   top: 400px;
+  left: 5px;
+  
 }
 
 #besties{
   position: absolute;
   top: 405px;
-  left: 135px;
-}	
+  left: 10px;
+}
+
+#friends-list{
+  position: absolute;
+  top: 430px;
+  left: 10px;
+}
 
 #button{
 	position: absolute;
