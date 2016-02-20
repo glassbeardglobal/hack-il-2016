@@ -7,6 +7,8 @@ a:hover, a:visited, a:active, a:focus{
   text-decoration: none;
 }
 
+
+/*Left Groups Bar*/
 #left {
   background-color: white;
   display: inline-block;
@@ -41,6 +43,15 @@ a:hover, a:visited, a:active, a:focus{
   color: gray;
 }
 
+.icon i{
+  transition: color 0.5s;
+}
+.icon i:hover {
+  color: white;
+}
+
+
+/*Container for Navigation Bar*/
 #right {
   overflow: auto;
   background-color: #3498db;
@@ -50,6 +61,7 @@ a:hover, a:visited, a:active, a:focus{
   border-bottom: 1px solid #95a5a6;
 }
 
+/*Navigaion Bar*/
 .nav {
   position: fixed;
   right: 0;
@@ -85,13 +97,6 @@ a:hover, a:visited, a:active, a:focus{
   border-right: none;
 }
 
-.icon i{
-  transition: color 0.5s;
-}
-.icon i:hover {
-  color: white;
-}
-
 .searchbar {
   width: 500px;
   padding: 6px 16px;
@@ -108,19 +113,15 @@ a:hover, a:visited, a:active, a:focus{
 }
 
 input[type="text"], textarea {
-outline: none;
-box-shadow:none !important;
-border:0 !important;
+  outline: none;
+  box-shadow:none !important;
+  border:0 !important;
 }
 
+/*Main Screen for viewing movies*/
 #main {
-  float: right;
   height: 85vh;
   background-color: white;
-  width: 75vw;
-}
-
-#main {
   display: inline;
   float: right;
   width: 75vw;
