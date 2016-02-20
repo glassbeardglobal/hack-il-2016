@@ -1,0 +1,16 @@
+<div class="container">
+  <% if @user %>
+    <%= @user.email %>
+
+    <% if @user.id != current_user.id and @flag == 0  %>
+      <%= link_to "Add Friend", friend_request_friendable_path(@user.id), :method => :put %>
+    <% end %>
+
+    <% @friends.each do |friend| %>
+      <% x = User.find(friend.to_id) %>
+      <p><%= x.email %></p>
+    <% end %>
+  <% else %>
+    <p>User not found</p>
+  <% end %>
+</div>

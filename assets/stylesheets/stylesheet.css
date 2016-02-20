@@ -85,13 +85,55 @@ border:0 !important;
 
 /*Groups Bar*/
 
-.groups-bar {
-  width: 200px;
-  float: left;
+.main-wrapper {
+  padding: 20px;
 }
 
-.groups-bar .container-fluid {
+.groups-bar .container {
   font-size: 20px;
   font-weight: 100;
   text-align: center;
+}
+
+#left {
+  display: inline;
+  float: left;
+  width: 25vw;
+  font-size: 15px;
+
+}
+
+#left .jumbotron, #main .jumbotron {
+  padding: 30px;
+}
+
+#left span{
+  font-size: 18px;
+}
+
+#left ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+#main {
+  display: inline;
+  float: right;
+  width: 70vw;
+  font-size: 18px;
+}
+
+#main ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+#main ul li {
+  display: inline;
+  padding: 0em;
+}
+
+img {
+  width: 150px;
+  height: 216px;
 }
