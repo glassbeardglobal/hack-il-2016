@@ -13,56 +13,29 @@
   float: right;
 }
 
-#fav1{
+.fav{
   height: 320px;
   width: 200px;
   border: 10px;
   margin: 50px;
 }
 
-#fav2{
-  height: 320px;
-  width: 200px;
-  border: 10px;
-  margin: 50px;
-}
-
-#fav3{
-  height: 320px;
-  width: 200px;
-  border: 10px;
-  margin: 50px;
-}
-
-#fav4{
-  height: 320px;
-  width: 200px;
-  border: 10px;
-  margin: 50px;
 }
 #aboutme{
-  position: absolute;
-  top: 425px;
-  left: 250px;
-  right: 25px;
+  text-align: left;
+  float: left;
+  
 }
 
-#friends{
-  position: absolute;
-  top: 400px;
-  left: 5px;
-  
+.lists{
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
 }
 
 #besties{
   position: absolute;
-  top: 405px;
-  left: 10px;
-}
-
-#friends-list{
-  position: absolute;
-  top: 430px;
+  top: 500px;
   left: 10px;
 }
 

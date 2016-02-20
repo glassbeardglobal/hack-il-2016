@@ -154,3 +154,50 @@ img {
   height: 200px;
   margin: 30px;
 }
+
+#info{
+  float: left;
+  margin: 5px;
+  width: 200px;
+}
+
+#yours{
+  position: absolute;
+  top: 325px;
+  text-align: left;
+}
+
+#favs{
+  float: right;
+}
+
+.fav{
+  height: 320px;
+  width: 200px;
+  border: 10px;
+  margin: 50px;
+}
+
+}
+#aboutme{
+  text-align: left;
+  float: left;
+  
+}
+
+.lists{
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+}
+
+#besties{
+  text-align: left;
+}
+
+#button{
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+}
