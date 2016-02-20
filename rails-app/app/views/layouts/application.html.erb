@@ -7,9 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+
+    <div class="container">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+
+      <!--<% if user_signed_in? %>
+        <%= current_user.email %>
+      <% else %>
+        <p>Not logged in</p>
+      <% end %>-->
+    </div>
 
   </body>
 </html>
