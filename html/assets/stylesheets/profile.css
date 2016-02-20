@@ -32,6 +32,12 @@
   border: 10px;
   margin: 50px;
 }
+#aboutme{
+  position: absolute;
+  top: 425px;
+  left: 250px;
+  right: 25px;
+}
 
 #friends{
   position: absolute;
